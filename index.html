@@ -27,6 +27,9 @@
                 <li>
                     <a onclick='verifica_url()' href="#curriculo">CURRICULO </a>
                 </li>
+                <li>
+                    <a onclick='verifica_url()' href="#contato">CONTATO </a>
+                </li>
             </ul>
         </div>
     </div>
@@ -63,6 +66,8 @@
                 chamada_repo();
             }else if(split[1] == 'curriculo'){
                 chamada_curriculo();
+            }else if(split[1] == 'contato'){
+                chamada_contatos();
             }else{
                 chamada_curriculo();
             }
@@ -101,11 +106,17 @@
         <a href='arquivos/curriculo/nicolas_antonio_smaniotto.pdf'>VER EM PDF</a>
         ${tempIframe.innerHTML}`;
     }
+    function chamada_contatos(){
+            let url = `contatos.html`;
+            carrega_XMLHttpRequest(url,'conteudo');
+
+        }
     function resizeIframe(pos) {
         let iFrame = document.getElementById(pos);
         iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
         iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
         }
+
     function f_hidden(pos){ 
     //pega o o component HIDDEN do item
     bool = document.getElementById(pos).hidden;
