@@ -9,18 +9,23 @@ function json_repo(data,pos){
     ptbr.description = "Descrição:";
     ptbr.readmeButton= "Readme:";
     //percorre o json
-    document.getElementById(pos).innerHTML = `<div class="div_repo">`;
+    document.getElementById(pos).innerHTML = `
+        <div class="div_repo">
+        <a href="https://github.com/Nicolassmaniotto" class='conteudo_elemento_link'><H1>VER NO GITHUB</H1></a>
+        `;
     data.forEach(element => {
         //constroe os items encontrados
         document.getElementById(pos).innerHTML +=`
         <center>
         
         <div id='${element.id}'>
-        <a href='${element.html_url}'><h1>${element.name}</h1></a>
+        <a href='${element.html_url}' class='conteudo_elemento_link'><h1>Github:  ${element.name}</h1></a>
+        <div class='conteudo_elemento conteudo_box'>
         <h2>${ptbr.description}</h2>
-        <ul><li><p>${element.description}</p></li></ul>
+        <p>${element.description}</p>
+        </div>
             <div class='conteudo_elemento conteudo_box conteudo_readme'>
-            <button onclick="chamada_readme('${element.name}','${element.id}')"> ${ptbr.readmeButton} </button>
+            <a onclick="chamada_readme('${element.name}','${element.id}')"><h2>> ${ptbr.readmeButton}</h2></a>
                 <div id='conteudo_${element.id}' class='conteudo_elemento conteudo_box conteudo_readme'>
 
                 </div>

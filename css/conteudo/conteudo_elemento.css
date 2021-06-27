@@ -3,6 +3,16 @@
     margin: auto;
 
 }
+.conteudo_elemento_link{
+    color:inherit;
+}
+.conteudo_elemento_link:link{
+    text-decoration: none;
+}
+.conteudo_elemento_link:hover{
+    text-decoration: underline; 
+	color: #f00;
+}
 .conteudo_box{
     /* border: 1px solid black; */
     min-width: 50%; 
