@@ -19,7 +19,7 @@ function json_repo(data,pos){
         <center>
         
         <div id='${element.id}'>
-        <a href='${element.html_url}' class='conteudo_elemento_link'><h1>Github:  ${element.name}</h1></a>
+        <a href='${element.html_url}' class='conteudo_elemento_link conteudo_box'><h1>Github:  ${element.name}</h1></a>
         <div class='conteudo_elemento conteudo_box'>
         <h2>${ptbr.description}</h2>
         <p>${element.description}</p>
