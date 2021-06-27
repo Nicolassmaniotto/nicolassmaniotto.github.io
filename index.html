@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/title.css">
     <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/conteudo/conteudo_elemento.css">
+    <!-- <link rel="stylesheet" href="css/desktop/conteudo/conteudo_elemento.css"> -->
     <link rel="icon" href="icons/favicon.svg" />
 </head>
 <body>
@@ -52,6 +52,7 @@
 <script type="text/javascript" src="js/api_git/repos.js"></script>
 <script type="text/javascript" src="js/html_fetch.js"></script>
 <script type="text/javascript" src="js/conteudo_XMLHttpRequest.js"></script>
+<script type="text/javascript" src="js/style_control/css_import.js"></script>
 <script>
     function verifica_url(){
         
@@ -125,6 +126,10 @@
     }
 </script>
 <script>
-    verifica_url()
+    verifica_url();
+    css_import();
+    window.addEventListener('resize', function(){
+        css_import()
+    });
 </script>
 </html>
