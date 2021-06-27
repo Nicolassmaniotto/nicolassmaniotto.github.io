@@ -11,7 +11,7 @@ function json_repo(data,pos){
     //percorre o json
     document.getElementById(pos).innerHTML = `
         <div class="div_repo">
-        <a href="https://github.com/Nicolassmaniotto" class='conteudo_elemento_link'><H1>VER NO GITHUB</H1></a>
+        <a href="https://github.com/Nicolassmaniotto" class='conteudo_elemento_link'><h1>VER NO GITHUB</h1></a>
         `;
     data.forEach(element => {
         //constroe os items encontrados
