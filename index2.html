@@ -43,6 +43,7 @@
 <script type="text/javascript" src="js/json_ fetch.js"></script>
 <script type="text/javascript" src="js/api_git/repos.js"></script>
 <script type="text/javascript" src="js/html_fetch.js"></script>
+<script type="text/javascript" src="js/conteudo_XMLHttpRequest.js"></script>
 <script>
     function verifica_url(){
         
@@ -66,8 +67,22 @@
         json_fetch(url,'conteudo',json_repo)
     }
     function chamada_readme(name_def,id_def){
-        let id_iframe = `iframe_${id_def}`;
+        let id_conteudo= `conteudo_${id_def}`;
         let url = `https://raw.githubusercontent.com/Nicolassmaniotto/${name_def}/main/README.md`;
+        console.log(url)
+        // let url = `https://api.github.com/repos/Nicolassmaniotto/fecth-api-search/contents/README.md`;
+        // get_html_fetch(url,'conteudo');
+        carrega_XMLHttpRequest(url,id_conteudo);
+        // document.getElementById(id_iframe).src = url;
+    }
+    function chamada_curriculo(){
+        let url = 'arquivos/curriculo_nicolas_antonio_smaniotto.html';
+        console.log(url);
+        // let tempIframe =document.getElementById('iframe_template').innerHTML;
+        // let iframe_conteudo =
+        // document.getElementById('conteudo').innerHTML = tempIframe;
+        // document.getElementById('iframe_conteudo').src = url;
+        let id_iframe= `iframe_curriculo`;
         let tempIframe =document.getElementsByTagName('template')[0];
         item = tempIframe.content.querySelector("iframe");
         item.id = id_iframe;
@@ -75,20 +90,12 @@
         console.log();
         document.getElementById('conteudo').innerHTML = tempIframe.innerHTML;
         // document.getElementById(id_iframe).src = url;
-    }
-    function chamada_curriculo(){
-        let url = 'arquivos/curriculo_nicolas_antonio_smaniotto.html';
-        console.log(url);
-        let tempIframe =document.getElementById('iframe_template').innerHTML;
-        document.getElementById('conteudo').innerHTML = tempIframe;
-        document.getElementById('iframe_conteudo').src = url;
         // get_html_fetch(url,'conteudo')
     }
     function resizeIframe(pos) {
         let iFrame = document.getElementById(pos);
         iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
         iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
-        
         }
 </script>
 <script>

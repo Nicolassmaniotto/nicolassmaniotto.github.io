@@ -7,7 +7,7 @@ function carrega_XMLHttpRequest(url,pos){
                 document.getElementById(pos).innerHTML = this.responseText;
             }
         };
-        xmlhttp.open("GET", url, false);
+        xmlhttp.open("GET", url, true);
         xmlhttp.send();
     
 

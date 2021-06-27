@@ -20,6 +20,9 @@ function json_repo(data,pos){
         <h2>${ptbr.description}</h2>
         <ul><li><p>${element.description}</p></li></ul>
         <button onclick="chamada_readme('${element.name}','${element.id}')"> ${ptbr.readmeButton} </button>
+            <div id='conteudo_${element.id}'>
+
+            </div>
         </div>
         <hr>
         </center>
