@@ -31,6 +31,13 @@
     <div id='conteudo'>
 
     </div>
+
+<template>
+    <center>
+        <iframe onload="resizeIframe(`${this.id}`)" scrolling="no" style="border:0;" src=''>
+        </iframe>
+    </center>
+</template>
     
 </body>
 <script type="text/javascript" src="js/json_ fetch.js"></script>
@@ -58,21 +65,23 @@
         let url = 'https://api.github.com/users/Nicolassmaniotto/repos';
         json_fetch(url,'conteudo',json_repo)
     }
-    function chamada_readme(name_def){
-        let base_url = 'https://api.github.com/repos/Nicolassmaniotto/';
-        let url_def = base_url+name_def;
-        console.log(url_def);
-        get_html_fetch(url_def,'conteudo')
+    function chamada_readme(name_def,id_def){
+        let id_iframe = `iframe_${id_def}`;
+        let url = `https://raw.githubusercontent.com/Nicolassmaniotto/${name_def}/main/README.md`;
+        let tempIframe =document.getElementsByTagName('template')[0];
+        item = tempIframe.content.querySelector("iframe");
+        item.id = id_iframe;
+        item.src = url;
+        console.log();
+        document.getElementById('conteudo').innerHTML = tempIframe.innerHTML;
+        // document.getElementById(id_iframe).src = url;
     }
     function chamada_curriculo(){
         let url = 'arquivos/curriculo_nicolas_antonio_smaniotto.html';
         console.log(url);
-        document.getElementById('conteudo').innerHTML = `<center>
-        <a href='arquivos/Nicolas Antonio Smaniotto _ Dev.pdf'>PDF</a> <br>
-        <iframe onload="resizeIframe('iframe_conteudo')" scrolling="no" id='iframe_conteudo' style="border:0;" src='${url}'>
-        </iframe>
-        </center>`;
-        // document.getElementById('iframe_conteudo').src = url;
+        let tempIframe =document.getElementById('iframe_template').innerHTML;
+        document.getElementById('conteudo').innerHTML = tempIframe;
+        document.getElementById('iframe_conteudo').src = url;
         // get_html_fetch(url,'conteudo')
     }
     function resizeIframe(pos) {
