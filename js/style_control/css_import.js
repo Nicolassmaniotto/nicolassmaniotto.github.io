@@ -7,7 +7,7 @@ function css_import(){
     }else{
         var local = "mobile";
     }
-    var style = `<link rel="stylesheet" href="css/${local}/conteudo/conteudo_elemento.css"></link>`;
+    var style = `@import "css/${local}/conteudo/conteudo_elemento.css"`;
     console.log(style);
-    document.head.innerHTML  += style;
+    document.getElementById('STYLE_IMPORT').innerHTML  = style;
 }
