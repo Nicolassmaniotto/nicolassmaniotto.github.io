@@ -89,7 +89,7 @@
         // document.getElementById(id_iframe).src = url;
     }
     function chamada_curriculo(){
-        let url = 'arquivos/curriculo_nicolas_antonio_smaniotto.html';
+        let url = 'arquivos/curriculo/nicolas_antonio_smaniotto.html';
         console.log(url);
         let id_iframe= `iframe_curriculo`;
         let tempIframe =document.getElementsByTagName('template')[0];
@@ -97,7 +97,9 @@
         item.id = id_iframe;
         item.src = url;
         console.log();
-        document.getElementById('conteudo').innerHTML = tempIframe.innerHTML;
+        document.getElementById('conteudo').innerHTML = `
+        <a href='arquivos/curriculo/nicolas_antonio_smaniotto.pdf'>VER EM PDF</a>
+        ${tempIframe.innerHTML}`;
     }
     function resizeIframe(pos) {
         let iFrame = document.getElementById(pos);
