@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/title.css">
     <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/conteudo_elemento.css">
+    <link rel="stylesheet" href="css/conteudo/conteudo_elemento.css">
     <link rel="icon" href="icons/favicon.svg" />
 </head>
 <body>
@@ -73,11 +73,17 @@
     }
     function chamada_readme(name_def,id_def){
         let id_conteudo= `conteudo_${id_def}`;
-        let url = `https://raw.githubusercontent.com/Nicolassmaniotto/${name_def}/main/README.md`;
-        console.log(url)
-        // let url = `https://api.github.com/repos/Nicolassmaniotto/fecth-api-search/contents/README.md`;
-        // get_html_fetch(url,'conteudo');
-        carrega_XMLHttpRequest(url,id_conteudo);
+        let conteudo = document.getElementById(id_conteudo);
+        // console.log(conteudo.innerText)
+        if(!conteudo.innerText){
+            let url = `https://raw.githubusercontent.com/Nicolassmaniotto/${name_def}/main/README.md`;
+            console.log(url)
+            carrega_XMLHttpRequest(url,id_conteudo);
+        }else{
+            f_hidden(id_conteudo);
+        }
+       
+
         // document.getElementById(id_iframe).src = url;
     }
     function chamada_curriculo(){
@@ -96,6 +102,12 @@
         iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
         iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
         }
+    function f_hidden(pos){ 
+    //pega o o component HIDDEN do item
+    bool = document.getElementById(pos).hidden;
+    //inverte o valor do HIDDEN do item
+    document.getElementById(pos).hidden = !bool ;
+    }
 </script>
 <script>
     verifica_url()
