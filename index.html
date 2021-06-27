@@ -78,19 +78,14 @@
     function chamada_curriculo(){
         let url = 'arquivos/curriculo_nicolas_antonio_smaniotto.html';
         console.log(url);
-        // let tempIframe =document.getElementById('iframe_template').innerHTML;
-        // let iframe_conteudo =
-        // document.getElementById('conteudo').innerHTML = tempIframe;
-        // document.getElementById('iframe_conteudo').src = url;
         let id_iframe= `iframe_curriculo`;
         let tempIframe =document.getElementsByTagName('template')[0];
         item = tempIframe.content.querySelector("iframe");
         item.id = id_iframe;
         item.src = url;
+        item.onload = `resizeIframe(${id_iframe})`;
         console.log();
         document.getElementById('conteudo').innerHTML = tempIframe.innerHTML;
-        // document.getElementById(id_iframe).src = url;
-        // get_html_fetch(url,'conteudo')
     }
     function resizeIframe(pos) {
         let iFrame = document.getElementById(pos);
