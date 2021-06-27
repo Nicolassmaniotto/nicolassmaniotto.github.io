@@ -1,0 +1,17 @@
+.conteudo_elemento{
+    text-align: left;
+    margin: auto;
+
+}
+.conteudo_box{
+    border: 1px solid black;
+    min-width: 50%; 
+    max-width: fit-content;
+}
+.conteudo_readme{
+    color: rgb(250, 250, 250);
+    background-color: rgb(29, 28, 28);
+}
+/* .div_repo{
+    min-width: 50%;    
+} */

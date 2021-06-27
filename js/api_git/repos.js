@@ -19,9 +19,11 @@ function json_repo(data,pos){
         <a href='${element.html_url}'><h1>${element.name}</h1></a>
         <h2>${ptbr.description}</h2>
         <ul><li><p>${element.description}</p></li></ul>
-        <button onclick="chamada_readme('${element.name}','${element.id}')"> ${ptbr.readmeButton} </button>
-            <div id='conteudo_${element.id}'>
+            <div class='conteudo_elemento conteudo_box conteudo_readme'>
+            <button onclick="chamada_readme('${element.name}','${element.id}')"> ${ptbr.readmeButton} </button>
+                <div id='conteudo_${element.id}' class='conteudo_elemento conteudo_box conteudo_readme'>
 
+                </div>
             </div>
         </div>
         <hr>

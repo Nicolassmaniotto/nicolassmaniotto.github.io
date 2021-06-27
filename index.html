@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/title.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/conteudo_elemento.css">
     <link rel="icon" href="icons/favicon.svg" />
 </head>
 <body>
@@ -29,9 +30,12 @@
             </ul>
         </div>
     </div>
-    <div id='conteudo'>
+    <center>
+        <div id='conteudo'>
 
-    </div>
+        </div>
+    </center>
+
 
 <template>
     <center>
@@ -84,7 +88,6 @@
         item = tempIframe.content.querySelector("iframe");
         item.id = id_iframe;
         item.src = url;
-        item.onload = `resizeIframe(${id_iframe})`;
         console.log();
         document.getElementById('conteudo').innerHTML = tempIframe.innerHTML;
     }
