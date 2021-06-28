@@ -14,6 +14,7 @@
     </style>
 </head>
 <body>
+    <input type="text" id="foco_style" name="foco_style" value='' hidden>
     <div title="div_titulo" class='div_titulo'>
         <h1 class='titulo_topo'>
             Nicolas Antonio Smaniotto
@@ -98,13 +99,22 @@
         // document.getElementById(id_iframe).src = url;
     }
     function chamada_curriculo(){
-        let url = 'arquivos/curriculo/nicolas_antonio_smaniotto.html';
+        let largura = window.innerWidth;
+        let altura = window.innerHeight;
+        var local;
+        if(largura<altura){
+            local = `arquivos/mobile/curriculo/curriculo.html`;
+        }else{
+            local = `arquivos/curriculo/nicolas_antonio_smaniotto.html`;
+        }
+        let url = `${local}`;
         console.log(url);
         let id_iframe= `iframe_curriculo`;
         let tempIframe =document.getElementsByTagName('template')[0];
         item = tempIframe.content.querySelector("iframe");
         item.id = id_iframe;
         item.src = url;
+        item.class = "curriculo";
         console.log();
         document.getElementById('conteudo').innerHTML = `
         <a href='arquivos/curriculo/nicolas_antonio_smaniotto.pdf'>VER EM PDF</a>
@@ -131,8 +141,15 @@
 <script>
     verifica_url();
     css_import();
+    //variavel global de estilo
+    var foco_style = document.getElementById('foco_style').value;
     window.addEventListener('resize', function(){
         css_import()
+        let foco = document.getElementById('foco_style').value;
+            if(foco != foco_style){
+                foco_style = foco;
+                verifica_url();
+            }
     });
 </script>
 </html>
