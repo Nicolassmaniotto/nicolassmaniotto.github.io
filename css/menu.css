@@ -4,6 +4,9 @@
     color: rgb(245, 231, 210);
     border: 0;
     text-align: center;
+    position: fixed;
+    bottom: 100;
+    width: 100%;
 }
 .menu_topo ul{
     padding:0px;

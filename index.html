@@ -15,29 +15,34 @@
 </head>
 <body>
     <input type="text" id="foco_style" name="foco_style" value='' hidden>
-    <div title="div_titulo" class='div_titulo'>
-        
-        <h1 class='titulo_topo'>
-            Nicolas Antonio Smaniotto
-        </h1>
-        <div class="menu_topo" id='menu-topo'>
-            <ul>
-                <li>
-                    <a href="http://nicolassmaniotto.github.io">HOME </a>
-                </li>
-                <li>
-                    <!-- <a href="https://github.com/Nicolassmaniotto">PROJETOS</a> -->
-                    <a onclick='verifica_url()' href="#projetos">PROJETOS </a>
-                </li>
-                <li>
-                    <a onclick='verifica_url()' href="#curriculo">CURRICULO </a>
-                </li>
-                <li>
-                    <a onclick='verifica_url()' href="#contato">CONTATO </a>
-                </li>
-            </ul>
+    <header class="header">
+        <div title="div_titulo" class='div_titulo'>
+            <h1 class='titulo_topo'>
+                Nicolas Antonio Smaniotto
+            </h1>
+            <nav class="menu_topo" id='menu-topo'>
+                <ul>
+                    <li>
+                        <a href="http://nicolassmaniotto.github.io">HOME </a>
+                    </li>
+                    <li>
+                        <!-- <a href="https://github.com/Nicolassmaniotto">PROJETOS</a> -->
+                        <a onclick='verifica_url()' href="#projetos">PROJETOS </a>
+                    </li>
+                    <li>
+                        <a onclick='verifica_url()' href="#curriculo">CURRICULO </a>
+                    </li>
+                    <li>
+                        <a onclick='verifica_url()' href="#contato">CONTATO </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </header>
+    <br>
+    <br>
+
+    
     <center>
         <div id='conteudo'>
 
@@ -47,7 +52,7 @@
 
 <template>
     <center>
-        <iframe onload="resizeIframe(`${this.id}`)" scrolling="no" style="border:0;" src=''>
+        <iframe onload="resizeIframe(`${this.id}`)" sandbox="allow-scripts" scrolling="no" style="border:0;" src=''>
         </iframe>
     </center>
 </template>
