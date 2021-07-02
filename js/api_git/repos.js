@@ -24,7 +24,7 @@ function json_repo(data,pos){
         </div>
             <div class='conteudo_elemento conteudo_box conteudo_readme'>
             <a onclick="chamada_readme('${element.name}','${element.id}')"><h2>> ${ptbr.readmeButton}</h2></a>
-                <div id='conteudo_${element.id}' class=''>
+                <div id='conteudo_${element.id}' class='conteudo_2tab'>
 
                 </div>
             </div>

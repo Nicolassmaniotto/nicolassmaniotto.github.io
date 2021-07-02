@@ -106,7 +106,7 @@
     function chamada_curriculo(){
         let largura = window.innerWidth;
         let altura = window.innerHeight;
-        let metade_largura = largura/2;
+        // let metade_largura = largura/2;
         var local;
         if(largura<altura){
             local = `arquivos/mobile/curriculo/curriculo.html`;
@@ -123,7 +123,7 @@
         item.class = "curriculo";
         // console.log();
         document.getElementById('conteudo').innerHTML = `
-        <a href='arquivos/curriculo/nicolas_antonio_smaniotto.pdf'>VER EM PDF</a>
+        <a href='arquivos/curriculo/nicolas_antonio_smaniotto.pdf'>VER EM PDF</a> <br>
         ${tempIframe.innerHTML}`;
     }
     function chamada_contatos(){

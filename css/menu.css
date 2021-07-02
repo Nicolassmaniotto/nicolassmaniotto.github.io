@@ -1,8 +1,18 @@
+
 .menu_topo{
-    margin: 0;
-    background-color: rgb(10, 10, 10);
-    color: rgb(245, 231, 210);
-    border: 0;
+    --tamanho_letra_menu: 1.5rem;
+    --margin-geral: 0px;
+    
+    --bakground-color:rgb(10, 10, 10);
+    --border-geral:3px solid var(--bakground-color);
+    --font-color:rgb(228, 232, 248);
+ }
+.menu_topo{
+    font-size: var(--tamanho_letra_menu);
+    margin: var(--margin-geral);
+    background-color:var(--bakground-color);
+    color: var(--font-color);
+    border: var(--border-geral);
     text-align: center;
     width: 100%;
 }
