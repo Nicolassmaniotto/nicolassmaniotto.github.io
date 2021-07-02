@@ -17,8 +17,8 @@
     <input type="text" id="foco_style" name="foco_style" value='' hidden>
     <header class="header">
         <div title="div_titulo" class='div_titulo'>
-            <h1 class='titulo_topo'>
-                Nicolas Antonio Smaniotto
+            <h1 class='titulo_topo' id='titulo_topo' >
+                    Nicolas Antonio Smaniotto
             </h1>
             <nav class="menu_topo" id='menu-topo'>
                 <ul>
@@ -39,10 +39,7 @@
             </nav>
         </div>
     </header>
-    <br>
-    <br>
-
-    
+    <br>    
     <center>
         <div id='conteudo'>
 
@@ -52,7 +49,7 @@
 
 <template>
     <center>
-        <iframe onload="resizeIframe(`${this.id}`)" sandbox="allow-scripts" scrolling="no" style="border:0;" src=''>
+        <iframe onload="resizeIframe(`${this.id}`);" scrolling="no" style="border:0;" src=''>
         </iframe>
     </center>
 </template>
@@ -63,6 +60,7 @@
 <script type="text/javascript" src="js/html_fetch.js"></script>
 <script type="text/javascript" src="js/conteudo_XMLHttpRequest.js"></script>
 <script type="text/javascript" src="js/style_control/css_import.js"></script>
+<script type="text/javascript" src="js/sguir_link_iframe.js"></script>
 <script>
     function verifica_url(){
         
@@ -138,10 +136,13 @@
         }
 
     function f_hidden(pos){ 
-    //pega o o component HIDDEN do item
-    bool = document.getElementById(pos).hidden;
-    //inverte o valor do HIDDEN do item
-    document.getElementById(pos).hidden = !bool ;
+        //pega o o component HIDDEN do item
+        bool = document.getElementById(pos).hidden;
+        //inverte o valor do HIDDEN do item
+        document.getElementById(pos).hidden = !bool ;
+    }
+    function verifica_iframe(){
+
     }
 </script>
 <script>
@@ -156,6 +157,15 @@
                 foco_style = foco;
                 verifica_url();
             }
+        // alert(this.contentWindow.location);
     });
+    window.addEventListener('scroll',()=>{
+        if(window.scrollY <= 0){
+            document.getElementById('titulo_topo').hidden = false;
+        }else{
+            document.getElementById('titulo_topo').hidden = true;
+        }
+        
+    })
 </script>
 </html>
