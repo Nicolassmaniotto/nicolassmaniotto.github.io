@@ -10,14 +10,12 @@ function json_repo(data,pos){
     ptbr.readmeButton= "Readme:";
     //percorre o json
     document.getElementById(pos).innerHTML = `
-        <div class="div_repo">
+        <div class="div_repo" class='conteudo; min_box;'>
         <a href="https://github.com/Nicolassmaniotto" class='conteudo_elemento_link'><h1>VER NO GITHUB</h1></a>
         `;
     data.forEach(element => {
         //constroe os items encontrados
         document.getElementById(pos).innerHTML +=`
-        <center>
-        
         <div id='${element.id}'>
         <a href='${element.html_url}' class='conteudo_elemento_link conteudo_box'><h1>Github:  ${element.name}</h1></a>
         <div class='conteudo_elemento conteudo_box'>
@@ -32,9 +30,8 @@ function json_repo(data,pos){
             </div>
         </div>
         <hr>
-        </center>
         `;
-        console.log(element);
+        // console.log(element);
                                                     
     });
     document.getElementById(pos).innerHTML += `</div>`;

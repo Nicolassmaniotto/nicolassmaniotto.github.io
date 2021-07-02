@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,21 +40,22 @@
         </div>
     </header>
     <br>    
-    <center>
-        <div id='conteudo'>
+    <!-- <center> -->
+        <div id='conteudo' class="conteudo;">
 
         </div>
-    </center>
+    <!-- </center> -->
 
 
 <template>
-    <center>
+    <!-- <center> -->
         <iframe onload="resizeIframe(`${this.id}`);" scrolling="no" style="border:0;" src=''>
         </iframe>
-    </center>
+    <!-- </center> -->
 </template>
     
 </body>
+<script type="text/javascript" src="js/browser_verify.js"></script>
 <script type="text/javascript" src="js/json_ fetch.js"></script>
 <script type="text/javascript" src="js/api_git/repos.js"></script>
 <script type="text/javascript" src="js/html_fetch.js"></script>
@@ -93,7 +94,7 @@
         // console.log(conteudo.innerText)
         if(!conteudo.innerText){
             let url = `https://raw.githubusercontent.com/Nicolassmaniotto/${name_def}/main/README.md`;
-            console.log(url)
+            // console.log(url)
             carrega_XMLHttpRequest(url,id_conteudo);
         }else{
             f_hidden(id_conteudo);
@@ -112,14 +113,14 @@
             local = `arquivos/curriculo/nicolas_antonio_smaniotto.html`;
         }
         let url = `${local}`;
-        console.log(url);
+        // console.log(url);
         let id_iframe= `iframe_curriculo`;
         let tempIframe =document.getElementsByTagName('template')[0];
         item = tempIframe.content.querySelector("iframe");
         item.id = id_iframe;
         item.src = url;
         item.class = "curriculo";
-        console.log();
+        // console.log();
         document.getElementById('conteudo').innerHTML = `
         <a href='arquivos/curriculo/nicolas_antonio_smaniotto.pdf'>VER EM PDF</a>
         ${tempIframe.innerHTML}`;
@@ -167,5 +168,6 @@
         }
         
     })
+    browser_verify()
 </script>
 </html>

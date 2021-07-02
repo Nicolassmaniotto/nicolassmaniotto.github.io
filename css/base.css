@@ -8,3 +8,20 @@ body{
     position: sticky;
     top: 0;
 }
+
+.conteudo{
+    text-align: center;
+    align-items: center;
+
+}
+div#conteudo{
+    text-align: center;
+    margin: auto;
+    min-width: 50%;
+    max-width: 100%;
+}
+.min_box{
+    margin: auto;
+    min-width: 50%;
+    max-width: 80%;
+}
