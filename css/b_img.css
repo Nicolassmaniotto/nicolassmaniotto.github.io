@@ -1,8 +1,8 @@
 .b_img_init{
     background-image: none;
 }
-.home{
-    height: 90vh;
+.alt{
+    height: 89vh;
 }
 .gradient{
     /*based in https://github.com/willianjusten/labs/tree/gh-pages/gradient-animation*/
@@ -10,11 +10,12 @@
     align-items: center;
     justify-content: center;
     /* height: initial; */
-    width: 100vw;
+    /* width: 100vw; */
 
     /* Colors generated on: https://colorhunt.co/palette/179481 */
-    background: linear-gradient(45deg, #c72323, #bbb952, #4ad896, #325bb4);
+    background: linear-gradient(10deg, #c72323, #bbb952, #4ad896, #325bb4);
     background-size: 300% 300%;
+    /* animation: colors 15s ease infinite; */
     animation: colors 15s ease infinite;
   }
 
@@ -30,9 +31,9 @@
     }
   }
 
-  @media (max-width: 600px) {
+  /* @media (max-width: 600px) {
     .text {
       font-size: 1.5rem;
       padding: 1rem 2rem;
     }
-  }
+  } */

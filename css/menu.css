@@ -4,7 +4,7 @@
     --margin-geral: 0px;
     
     --bakground-color:rgb(10, 10, 10);
-    --border-geral:3px solid var(--bakground-color);
+    --border-geral:1rem solid var(--bakground-color);
     --font-color:rgb(228, 232, 248);
  }
 .menu_topo{
