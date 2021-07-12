@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicolas Antonio Smaniotto</title>
+    <link rel="stylesheet" href="css/b_img.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/title.css">
     <link rel="stylesheet" href="css/menu.css">
@@ -23,7 +24,7 @@
             <nav class="menu_topo" id='menu-topo'>
                 <ul>
                     <li>
-                        <a href="http://nicolassmaniotto.github.io">HOME </a>
+                        <a href="">HOME </a>
                     </li>
                     <li>
                         <!-- <a href="https://github.com/Nicolassmaniotto">PROJETOS</a> -->
@@ -39,7 +40,6 @@
             </nav>
         </div>
     </header>
-    <br>    
     <!-- <center> -->
         <div id='conteudo' class="conteudo;">
 
@@ -79,7 +79,7 @@
             }else if(split[1] == 'contato'){
                 chamada_contatos();
             }else{
-                chamada_curriculo();
+                chamada_home();
             }
         },50)
     }
@@ -145,6 +145,10 @@
     }
     function verifica_iframe(){
 
+    }
+    function chamada_home(){
+        let url = `arquivos/home.html`;
+            carrega_XMLHttpRequest(url,'conteudo');
     }
 </script>
 <script>
