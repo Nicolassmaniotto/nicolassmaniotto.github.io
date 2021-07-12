@@ -2,11 +2,12 @@
     background-image: none;
 }
 .alt{
-    height: 89vh;
+    min-height: 84vh;
+    max-height: max-content;
 }
 .gradient{
     /*based in https://github.com/willianjusten/labs/tree/gh-pages/gradient-animation*/
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     /* height: initial; */
