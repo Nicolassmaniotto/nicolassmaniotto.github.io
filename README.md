@@ -1,2 +1,9 @@
 # nicolassmaniotto.github.io
-perfil site
+Em desenvolvimento - portifolio github.
+<ul>
+  <li>
+    Comunicação com a API Github.
+    <li>Busca dos meus projetos abertos do github.
+  </li>
+  </li>
+</ul>
