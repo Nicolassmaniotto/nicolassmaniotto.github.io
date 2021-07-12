@@ -33,3 +33,11 @@ div#conteudo{
     height: auto;
     border: 3px solid black ;
 }
+.align-block{
+    width: auto;
+}
+.center {
+    vertical-align: middle;
+    text-align: center;
+    display: flex;
+}
