@@ -14,7 +14,7 @@
     color: var(--font-color);
     border: var(--border-geral);
     text-align: center;
-    width: 100%;
+    /* width: 100%; */
 }
 .menu_topo ul{
     padding:0px;
