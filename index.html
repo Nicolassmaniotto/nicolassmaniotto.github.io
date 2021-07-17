@@ -4,11 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicolas Antonio Smaniotto</title>
-    <link rel="stylesheet" href="css/b_img.css">
+    
+    <style>
+        :root{
+            --cor-a: rgb(8, 8, 8);
+            --cor-b: white ;
+            --cor-c: rgb(99, 233, 22);
+            --background-type: linear-gradient(25deg, var(--cor-a),var(--cor-b));
+            --size-bk: 300% 300%;
+            --time-bk: 15s;
+        }
+    </style>
+    <link rel="stylesheet" href="css/bckground-base/b_img.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/title.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/contatos.css">
+    <link rel="stylesheet" href="css/bckground-base/backgrounsStyle.css">
     <!-- <link rel="stylesheet" href="css/desktop/conteudo/conteudo_elemento.css"> -->
     <link rel="icon" href="icons/favicon.svg" />
     <style id="STYLE_IMPORT">
@@ -37,12 +49,15 @@
                     <li>
                         <a onclick='verifica_url()' href="#contato">CONTATO </a>
                     </li>
+                    <li>
+                        <a href="javascript:" id= 'estilo_button' name='estilo_button' onclick='cor_css(this.value)' value='0'>Estilo </a>
+                    </li>
                 </ul>
             </nav>
         </div>
     </header>
     <!-- <center> -->
-        <div id='conteudo' class="conteudo">
+        <div id='conteudo' class="conteudo" >
 
         </div>
     <!-- </center> -->
@@ -62,7 +77,8 @@
 <script type="text/javascript" src="js/html_fetch.js"></script>
 <script type="text/javascript" src="js/conteudo_XMLHttpRequest.js"></script>
 <script type="text/javascript" src="js/style_control/css_import.js"></script>
-<script type="text/javascript" src="js/seguir_link_iframe.js"></script>
+<!-- <script type="text/javascript" src="js/seguir_link_iframe.js"></script> -->
+<script type="text/javascript" src="js/style_control/cor.js"></script>
 <script>
     function verifica_url(){
         
@@ -123,12 +139,12 @@
         item.src = url;
         item.class = "curriculo";
         // console.log();
-        document.getElementById('conteudo').innerHTML = `
+        document.getElementById('conteudo').innerHTML = `<br>
         <a href='arquivos/curriculo/nicolas_antonio_smaniotto_dev_qr.pdf'>VER EM PDF</a> <br>
         ${tempIframe.innerHTML}`;
     }
     function chamada_contatos(){
-            let url = `contatos.html`;
+            let url = `view/contatos.html`;
             carrega_XMLHttpRequest(url,'conteudo');
 
         }
@@ -148,7 +164,7 @@
 
     }
     function chamada_home(){
-        let url = `arquivos/home.html`;
+        let url = `view/home.html`;
             carrega_XMLHttpRequest(url,'conteudo');
     }
 </script>
@@ -168,13 +184,16 @@
         // alert(this.contentWindow.location);
     });
     window.addEventListener('scroll',()=>{
-        if(window.scrollY <= 0){
+        if(window.scrollY <= 30){
             document.getElementById('titulo_topo').hidden = false;
         }else{
             document.getElementById('titulo_topo').hidden = true;
         }
         
-    })
-    browser_verify()
+    });
+    browser_verify();
+    let cor = localStorage.getItem("bk-style")? cor_css(localStorage.getItem("bk-style")):cor_css(2);
+    
+
 </script>
 </html>

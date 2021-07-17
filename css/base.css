@@ -2,7 +2,12 @@ body{
     margin: 0;
     padding: 0;
 }
-
+.flex{
+    display: flex;
+}
+.block{
+    display: block;
+}
 .header {
     position: -webkit-sticky; /* Necessário para funcionar no Safari */
     position: sticky;
@@ -31,6 +36,7 @@ div#conteudo{
     padding: 2rem;
     width: fit-content;
     height: auto;
+    /* display: contents; */
     border: 3px solid black ;
 }
 .align-block{

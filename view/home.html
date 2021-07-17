@@ -1,18 +1,18 @@
 <div name='home' class="gradient alt">
     <div class="">
-        <div class="conteudo_box">
+        <div class="conteudo_box ">
             <br>
-            <h1 class="box align-block">
+            <h1 class="box align-block home backgroundStyle">
                 Portifolio Web em Desenvolvimento.
             </h1>
             <br>
-            <h1 class="box align-block">
+            <h1 class="box align-block home backgroundStyle">
                  <a class='conteudo_elemento_link' onclick='verifica_url()' href="#curriculo">
                 
                Ir Para Curriculo</a>
             </h1>
             <br>
-            <h1 class="box align-block">
+            <h1 class="box align-block home backgroundStyle">
                 <a class='conteudo_elemento_link' onclick='verifica_url()' href="#contatos">
               Ir Para Contatos</a><br>
               <label for="whatsapp">WHATSAPP: </label>
@@ -25,5 +25,14 @@
            </h1>
         </div>
     </div>
-   
+    <script type="text/javascript">
+       function tamanho(){
+            if(window.innerHeight > window.innerWidth){
+                document.getElementsByClassName('home').style ='width:fit-content';
+                console.log('tamanho');
+                // return 'tamanho';
+            }
+        };
+        tamanho()
+    </script>
 </div>

@@ -10,8 +10,9 @@ function css_import(){
     var style = `
     @import "css/${local}/conteudo/conteudo_elemento.css";
     @import "css/${local}/conteudo/curriculo.css";
+    @import "css/${local}/conteudo/home.css";
         `;
-    console.log(style);
+    // console.log(style);
     document.getElementById('STYLE_IMPORT').innerHTML  = style;
     document.getElementById('foco_style').value  = local;
 }

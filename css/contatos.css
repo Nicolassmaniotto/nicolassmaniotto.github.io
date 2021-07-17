@@ -8,7 +8,7 @@ text-align: left;
     text-decoration: none;
     font-family: -webkit-pictograph;
 }
-.contato a:hover{
+/* .contato a:hover{ */
      /*based in https://github.com/willianjusten/labs/tree/gh-pages/gradient-animation*/
      /* display: flex; */
      /* align-items: center; */
@@ -16,14 +16,14 @@ text-align: left;
      /* height: initial; */
      /* width: 100vw; */
     /* color: rgb(37, 36, 36); */
-    border-radius: 0.5rem;
+    /* border-radius: 0.5rem; */
      /* Colors generated on: https://colorhunt.co/palette/179481 */
-     background: linear-gradient(45deg, #7ffd093f,#e6ff05a1 , #e6ff051c);
-     background-size: 200% 200%;
+     /* background: linear-gradient(45deg, #7ffd093f,#e6ff05a1 , #e6ff051c); */
+     /* background-size: 200% 200%; */
      /* animation: colors 15s ease infinite; */
-     animation: colors 10s ease infinite;
-   }
- 
+     /* animation: colors 10s ease infinite; */
+   /* } */
+/*  
    @keyframes colors {
      0% {
        background-position: 0% 50%;
@@ -34,4 +34,4 @@ text-align: left;
      100% {
        background-position: 0% 50%;
      }
-   }
+   } */

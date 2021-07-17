@@ -13,7 +13,7 @@
 }
 .conteudo_elemento_link:hover{
     text-decoration: underline; 
-	color: #f00;
+	color: var(--cor-c);
 }
 .conteudo_box{
     /* border: 1px solid black; */
