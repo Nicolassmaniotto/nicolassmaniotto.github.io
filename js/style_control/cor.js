@@ -17,6 +17,7 @@ function cor_css($i){
         //  type = 'rgb(29, 28, 28)';
         //  cor_1 = 'rgb(29,28,28)';
         //  cor_2 = 'rgb(29,28,28)';
+        
         type  = 'black';
         cor_1 = 'black';
         cor_2 = 'black';
