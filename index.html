@@ -70,130 +70,138 @@
     <!-- </center> -->
 </template>
     
-</body>
-<script type="text/javascript" src="js/browser_verify.js"></script>
-<script type="text/javascript" src="js/json_ fetch.js"></script>
-<script type="text/javascript" src="js/api_git/repos.js"></script>
-<script type="text/javascript" src="js/html_fetch.js"></script>
-<script type="text/javascript" src="js/conteudo_XMLHttpRequest.js"></script>
-<script type="text/javascript" src="js/style_control/css_import.js"></script>
-<!-- <script type="text/javascript" src="js/seguir_link_iframe.js"></script> -->
-<script type="text/javascript" src="js/style_control/cor.js"></script>
-<script>
-    function verifica_url(){
-        
-        setTimeout(()=>{
-            let local = window.location.href;
-            let hostname = window.location.hostname;
-            let path = window.location.pathname;
-            let split = local.split('#');
 
-            // document.getElementById('conteudo').innerHTML = split[1];
-            if(split[1] == 'projetos'){
-                chamada_repo();
-            }else if(split[1] == 'curriculo'){
-                chamada_curriculo();
-            }else if(split[1] == 'contato'){
-                chamada_contatos();
-            }else{
-                chamada_home();
-            }
-        },50)
-    }
-    verifica_url();
-    function chamada_repo(){
-        let url = 'https://api.github.com/users/Nicolassmaniotto/repos';
-        json_fetch(url,'conteudo',json_repo)
-    }
-    function chamada_readme(name_def,id_def){
-        let id_conteudo= `conteudo_${id_def}`;
-        let conteudo = document.getElementById(id_conteudo);
-        // console.log(conteudo.innerText)
-        if(!conteudo.innerText){
-            let url = `https://raw.githubusercontent.com/Nicolassmaniotto/${name_def}/main/README.md`;
-            // console.log(url)
-            carrega_XMLHttpRequest(url,id_conteudo);
-        }else{
-            f_hidden(id_conteudo);
-        }
-       
-
-        // document.getElementById(id_iframe).src = url;
-    }
-    function chamada_curriculo(){
-        let largura = window.innerWidth;
-        let altura = window.innerHeight;
-        // let metade_largura = largura/2;
-        var local;
-        if(largura<altura){
-            local = `arquivos/mobile/curriculo/curriculo.html`;
-        }else{
-            local = `arquivos/curriculo/nicolas_antonio_smaniotto.html`;
-        }
-        let url = `${local}`;
-        // console.log(url);
-        let id_iframe= `iframe_curriculo`;
-        let tempIframe =document.getElementsByTagName('template')[0];
-        item = tempIframe.content.querySelector("iframe");
-        item.id = id_iframe;
-        item.src = url;
-        item.class = "curriculo";
-        // console.log();
-        document.getElementById('conteudo').innerHTML = `<br>
-        <a href='arquivos/curriculo/nicolas_antonio_smaniotto_dev_qr.pdf'>VER EM PDF</a> <br>
-        ${tempIframe.innerHTML}`;
-    }
-    function chamada_contatos(){
-            let url = `view/contatos.html`;
-            carrega_XMLHttpRequest(url,'conteudo');
-
-        }
-    function resizeIframe(pos) {
-        let iFrame = document.getElementById(pos);
-        iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
-        iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
-        }
-
-    function f_hidden(pos){ 
-        //pega o o component HIDDEN do item
-        bool = document.getElementById(pos).hidden;
-        //inverte o valor do HIDDEN do item
-        document.getElementById(pos).hidden = !bool ;
-    }
-    function verifica_iframe(){
-
-    }
-    function chamada_home(){
-        let url = `view/home.html`;
-            carrega_XMLHttpRequest(url,'conteudo');
-    }
-</script>
-<script>
-    verifica_url();
-    css_import();
-    //variavel global de estilo
-    var foco_style = document.getElementById('foco_style').value;
-    window.addEventListener('resize', ()=>{
-        css_import()
-        let foco = document.getElementById('foco_style').value;
-            if(foco != foco_style){
-                foco_style = foco;
-                verifica_url();
-            }
-        
-        // alert(this.contentWindow.location);
-    });
-    window.addEventListener('scroll',()=>{
-        if(window.scrollY <= 30){
-            document.getElementById('titulo_topo').hidden = false;
-        }else{
-            document.getElementById('titulo_topo').hidden = true;
-        }
-        
-    });
-    browser_verify();
-    let cor = localStorage.getItem("bk-style")? cor_css(localStorage.getItem("bk-style")):cor_css(2);
+<div>
+    <script type="text/javascript" src="js/browser_verify.js"></script>
+    <script type="text/javascript" src="js/json_ fetch.js"></script>
+    <script type="text/javascript" src="js/api_git/repos.js"></script>
+    <script type="text/javascript" src="js/html_fetch.js"></script>
+    <script type="text/javascript" src="js/conteudo_XMLHttpRequest.js"></script>
+    <script type="text/javascript" src="js/style_control/css_import.js"></script>
+    <!-- <script type="text/javascript" src="js/seguir_link_iframe.js"></script> -->
+    <script type="text/javascript" src="js/style_control/cor.js"></script>
+    <script>
+        function verifica_url(){
+            
+            setTimeout(()=>{
+                let local = window.location.href;
+                let hostname = window.location.hostname;
+                let path = window.location.pathname;
+                let split = local.split('#');
     
-
-</script>
+                // document.getElementById('conteudo').innerHTML = split[1];
+                if(split[1] == 'projetos'){
+                    chamada_projeto();
+                }else if(split[1] == 'curriculo'){
+                    chamada_curriculo();
+                }else if(split[1] == 'contato'){
+                    chamada_contatos();
+                }else{
+                    chamada_home();
+                }
+            },50)
+        }
+        verifica_url();
+        // function chamada_repo(){
+        //     let url = 'https://api.github.com/users/Nicolassmaniotto/repos';
+        //     json_fetch(url,'conteudo',json_repo)
+        // }
+        function chamada_projeto(){
+            let url = 'https://api.github.com/users/Nicolassmaniotto/repos';
+            console.log('repo');
+            json_fetch(url,'conteudo',json_repo)
+        }
+        function chamada_readme(name_def,id_def){
+            let id_conteudo= `conteudo_${id_def}`;
+            let conteudo = document.getElementById(id_conteudo);
+            // console.log(conteudo.innerText)
+            if(!conteudo.innerText){
+                let url = `https://raw.githubusercontent.com/Nicolassmaniotto/${name_def}/main/README.md`;
+                // console.log(url)
+                carrega_XMLHttpRequest(url,id_conteudo);
+            }else{
+                f_hidden(id_conteudo);
+            }
+           
+    
+            // document.getElementById(id_iframe).src = url;
+        }
+        function chamada_curriculo(){
+            let largura = window.innerWidth;
+            let altura = window.innerHeight;
+            // let metade_largura = largura/2;
+            // let url = './view/curriculo.html';
+            var local;
+            if(largura<altura){
+                local = `./view/curriculo_mobile.html`;
+            }else{
+                local = `./view/curriculo.html`;
+            }
+            carrega_XMLHttpRequest(local,'conteudo');
+    
+        }
+        function chamada_contatos(){
+            let largura = window.innerWidth;
+            let altura = window.innerHeight;
+            // let metade_largura = largura/2;
+            // let url = './view/curriculo.html';
+            var local;
+            if(largura<altura){
+                local = `./view/contatos_mobile.html`;
+            }else{
+                local = `./view/contatos.html`;
+            }
+            carrega_XMLHttpRequest(local,'conteudo');
+    
+        }
+        function resizeIframe(pos) {
+            let iFrame = document.getElementById(pos);
+            iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
+            iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
+            }
+    
+        function f_hidden(pos){ 
+            //pega o o component HIDDEN do item
+            bool = document.getElementById(pos).hidden;
+            //inverte o valor do HIDDEN do item
+            document.getElementById(pos).hidden = !bool ;
+        }
+        function verifica_iframe(){
+    
+        }
+        function chamada_home(){
+            let url = `view/home.html`;
+                carrega_XMLHttpRequest(url,'conteudo');
+        }
+    </script>
+    <script>
+        verifica_url();
+        css_import();
+        //variavel global de estilo
+        var foco_style = document.getElementById('foco_style').value;
+        window.addEventListener('resize', ()=>{
+            css_import()
+            let foco = document.getElementById('foco_style').value;
+                if(foco != foco_style){
+                    foco_style = foco;
+                    verifica_url();
+                }
+            
+            // alert(this.contentWindow.location);
+        });
+        window.addEventListener('scroll',()=>{
+            if(window.scrollY < 2){
+                document.getElementById('titulo_topo').hidden = false;
+            }else{
+                document.getElementById('titulo_topo').hidden = true;
+            }
+            
+        });
+        browser_verify();
+        let cor = localStorage.getItem("bk-style")? cor_css(localStorage.getItem("bk-style")):cor_css(1);
+        
+    
+    </script>
+</div>
+</body>
 </html>

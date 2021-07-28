@@ -8,9 +8,10 @@ function css_import(){
         var local = "mobile";
     }
     var style = `
-    @import "css/${local}/conteudo/conteudo_elemento.css";
-    @import "css/${local}/conteudo/curriculo.css";
-    @import "css/${local}/conteudo/home.css";
+    @import "/css/${local}/conteudo/conteudo_elemento.css";
+    @import "/css/${local}/conteudo/curriculo.css";
+    @import "/css/${local}/conteudo/home.css";
+    @import "/css/${local}/conteudo/contato.css";
         `;
     // console.log(style);
     document.getElementById('STYLE_IMPORT').innerHTML  = style;

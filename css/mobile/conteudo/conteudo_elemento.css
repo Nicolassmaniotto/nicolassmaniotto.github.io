@@ -32,3 +32,11 @@
 /* .div_repo{
     min-width: 50%;    
 } */
+.box{
+    margin: auto;
+    padding: 0rem;
+    width: fit-content;
+    height: auto;
+    /* display: contents; */
+    border: 3px solid black ;
+}

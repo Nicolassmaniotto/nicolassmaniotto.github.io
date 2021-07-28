@@ -14,10 +14,13 @@ function cor_css($i){
         
     }else if($i == 1){
          text = 'Noturno';
-         type = 'rgb(29, 28, 28)';
-         cor_1 = 'rgb(29,28,28)';
-         cor_2 = 'rgb(29,28,28)';
-         cor_3 = 'rgb(99, 233, 22)';
+        //  type = 'rgb(29, 28, 28)';
+        //  cor_1 = 'rgb(29,28,28)';
+        //  cor_2 = 'rgb(29,28,28)';
+        type  = 'black';
+        cor_1 = 'black';
+        cor_2 = 'black';
+        cor_3 = 'rgb(99, 233, 22)';
     }else if($i == 2){
         text = 'Water';
         type =  'url(../../img/water.jpg) repeat';

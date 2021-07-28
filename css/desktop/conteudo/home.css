@@ -1,7 +1,8 @@
 .home{
-    width: 100vw;
+    /* width: 100vw;
     border: none;
-    border-top: 3px solid;
+    border-top: 3px solid; */
+    padding: 1.5rem;
 }
 .backgroundStyle{
     background-color: azure;
