@@ -1,6 +1,9 @@
 function cor_css($i){
     var cor_1,cor_2,cor_3,type,text;
     var var_arr = [0,'Noturno','Water']
+    if($i!=2){
+        document.documentElement.style.setProperty('--size-bk','300vh 300vw' );
+    }
     
     // var button = document.getElementById('estilo_button');
     // console.log($i);
@@ -23,11 +26,14 @@ function cor_css($i){
         cor_2 = 'black';
         cor_3 = 'rgb(99, 233, 22)';
     }else if($i == 2){
-        text = 'Water';
-        type =  'url(../../img/water.jpg) repeat';
-        document.documentElement.style.setProperty('--size-bk','110vw 110vh' );
-        document.documentElement.style.setProperty('--time-bk','30s' );
-        cor_3 = 'rgb(99, 233, 22)';
+        $i = 3;
+        cor_css($i);
+        return;
+        // text = 'Water';
+        // type =  'url(../../img/water.jpg) repeat';
+        // document.documentElement.style.setProperty('--size-bk','cover' );
+        // document.documentElement.style.setProperty('--time-bk','20s' );
+        // cor_3 = 'rgb(99, 233, 22)';
         
     }else if($i == 3){
         text = 'Claro';

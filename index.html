@@ -11,7 +11,7 @@
             --cor-b: white ;
             --cor-c: rgb(99, 233, 22);
             --background-type: linear-gradient(25deg, var(--cor-a),var(--cor-b));
-            --size-bk: 300% 300%;
+            --size-bk: 300vw 300vh;
             --time-bk: 15s;
         }
     </style>
@@ -41,13 +41,13 @@
                     </li>
                     <li>
                         <!-- <a href="https://github.com/Nicolassmaniotto">PROJETOS</a> -->
-                        <a onclick='verifica_url()' href="#projetos">PROJETOS </a>
+                        <a onclick='' href="#projetos">PROJETOS </a>
                     </li>
                     <li>
-                        <a onclick='verifica_url()' href="#curriculo">CURRICULO </a>
+                        <a onclick='' href="#curriculo">CURRICULO </a>
                     </li>
                     <li>
-                        <a onclick='verifica_url()' href="#contato">CONTATO </a>
+                        <a onclick='' href="#contato">CONTATO </a>
                     </li>
                     <li>
                         <a href="javascript:" id= 'estilo_button' name='estilo_button' onclick='cor_css(this.value)' value='0'>Estilo </a>
@@ -175,7 +175,10 @@
         }
     </script>
     <script>
-        verifica_url();
+        if ("onhashchange" in window) {
+            console.log("O browser têm suporte ao evento hashchange!");
+        }
+        window.addEventListener("hashchange", ()=>{verifica_url();}, true);
         css_import();
         //variavel global de estilo
         var foco_style = document.getElementById('foco_style').value;

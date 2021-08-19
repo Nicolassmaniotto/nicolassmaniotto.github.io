@@ -19,6 +19,7 @@
     /* background: linear-gradient(25deg, var(--cor-a),var(--cor-b)); */
     background: var(--background-type);
     background-size:var(--size-bk);
+    
     /* animation: colors 15s ease infinite; */
     animation: colors var(--time-bk) ease infinite;
   }
