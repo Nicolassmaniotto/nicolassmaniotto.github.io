@@ -1,3 +1,0 @@
-function firefox_css(){
-    
-}
