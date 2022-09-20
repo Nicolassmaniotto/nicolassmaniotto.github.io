@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="-147 -70 400 400"
+   version="1.1"
+   id="svg27"
+   width="400"
+   height="400"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs31" />
+  <g
+     id="layer1">
+    <path
+       style="fill:#ff7f2a;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -89.448883,265.54512 c 0,-17.42512 19.678671,-52.58411 19.678671,-52.58411 l 19.399363,-121.92235 215.604979,0.34935 22.81135,154.92094 11.19284,13.42429 -42.97037,23.66933 z"
+       id="path1387" />
+    <path
+       style="fill:#aa0000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -118.67287,210.53605 11.10636,-39.29443 14.095642,32.16864 14.966555,31.83574 49.074443,-86.48893 124.80239,5.16461 40.70215,61.73773 35.85514,-53.88797 15.8406,77.67554 25.60189,-77.37559 11.33979,124.14812 -350.36096,-5.74366 z"
+       id="path416" />
+    <path
+       style="fill:#550000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -148.36992,327.9185 2.6129,-121.4751 33.27336,72.72859 12.21782,-83.4117 31.067302,86.72249 15.646425,-64.5094 51.293393,59.84582 37.87516,-71.39581 42.60415,80.00493 30.4802,-80.03915 32.00969,49.35372 26.79399,-46.72132 38.98645,79.27499 26.09394,-64.19235 17.22078,41.22138 3.98959,61.64556 -3.24621,4.14545 z"
+       id="path414" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="113.71596"
+       y="123.20538"
+       id="text494"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan492"
+         x="113.71596"
+         y="123.20538"
+         style="fill:#ffff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="131.69456"
+       y="105.24106"
+       id="text548"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan546"
+         x="131.69456"
+         y="105.24106"
+         style="fill:#ff0000;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="93.786873"
+       y="144.28778"
+       id="text552"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan550"
+         x="93.786873"
+         y="144.28778"
+         style="fill:#00ff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="113.71596"
+       y="123.20538"
+       id="text556"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan554"
+         x="113.71596"
+         y="123.20538"
+         style="fill:#ffff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="131.69456"
+       y="105.24106"
+       id="text560"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan558"
+         x="131.69456"
+         y="105.24106"
+         style="fill:#ff0000;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="-100.67487"
+       y="-79.105537"
+       id="text568"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan566"
+         x="-100.67487"
+         y="-79.105537"
+         style="fill:#ffff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="-90.156616"
+       y="-100.23232"
+       id="text572"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan570"
+         x="-90.156616"
+         y="-100.23232"
+         style="fill:#ff0000;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="-123.35118"
+       y="-44.585564"
+       id="text576"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan574"
+         x="-123.35118"
+         y="-44.585564"
+         style="fill:#00ff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="-76.634705"
+       y="-43.027973"
+       id="text580"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan578"
+         x="-76.634705"
+         y="-43.027973"
+         style="fill:#ffff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="-59.602783"
+       y="-60.894138"
+       id="text584"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan582"
+         x="-59.602783"
+         y="-60.894138"
+         style="fill:#ff0000;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="-96.563789"
+       y="-21.945578"
+       id="text588"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan586"
+         x="-96.563789"
+         y="-21.945578"
+         style="fill:#00ff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="-174.42537"
+       y="-9.9038496"
+       id="text592"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan590"
+         x="-174.42537"
+         y="-9.9038496"
+         style="fill:#ffff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="-156.44676"
+       y="-27.86817"
+       id="text596"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan594"
+         x="-156.44676"
+         y="-27.86817"
+         style="fill:#ff0000;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="-194.35446"
+       y="11.178546"
+       id="text600"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan598"
+         x="-194.35446"
+         y="11.178546"
+         style="fill:#00ff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="-27.525698"
+       y="-9.776412"
+       id="text604"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan602"
+         x="-27.525698"
+         y="-9.776412"
+         style="fill:#ffff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="-9.5470915"
+       y="-27.740732"
+       id="text608"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan606"
+         x="-9.5470915"
+         y="-27.740732"
+         style="fill:#ff0000;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="-47.454792"
+       y="11.305984"
+       id="text612"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan610"
+         x="-47.454792"
+         y="11.305984"
+         style="fill:#00ff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="-27.525698"
+       y="-9.776412"
+       id="text616"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan614"
+         x="-27.525698"
+         y="-9.776412"
+         style="fill:#ffff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="-9.5470915"
+       y="-27.740732"
+       id="text620"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan618"
+         x="-9.5470915"
+         y="-27.740732"
+         style="fill:#ff0000;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="-47.454792"
+       y="11.305984"
+       id="text624"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan622"
+         x="-47.454792"
+         y="11.305984"
+         style="fill:#00ff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="-30.353203"
+       y="45.692402"
+       id="text628"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan626"
+         x="-30.353203"
+         y="45.692402"
+         style="fill:#ffff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="-12.374596"
+       y="27.728079"
+       id="text632"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan630"
+         x="-12.374596"
+         y="27.728079"
+         style="fill:#ff0000;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="-50.282288"
+       y="66.774803"
+       id="text636"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan634"
+         x="-50.282288"
+         y="66.774803"
+         style="fill:#00ff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="-3.5658107"
+       y="68.33239"
+       id="text640"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan638"
+         x="-3.5658107"
+         y="68.33239"
+         style="fill:#ffff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="14.412796"
+       y="50.368065"
+       id="text644"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan642"
+         x="14.412796"
+         y="50.368065"
+         style="fill:#ff0000;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="-23.494896"
+       y="89.414787"
+       id="text648"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan646"
+         x="-23.494896"
+         y="89.414787"
+         style="fill:#00ff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="-83.377869"
+       y="83.492195"
+       id="text652"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan650"
+         x="-83.377869"
+         y="83.492195"
+         style="fill:#ff0000;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="45.543198"
+       y="101.58395"
+       id="text656"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan654"
+         x="45.543198"
+         y="101.58395"
+         style="fill:#ffff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="63.521801"
+       y="83.619629"
+       id="text660"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan658"
+         x="63.521801"
+         y="83.619629"
+         style="fill:#ff0000;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="25.614101"
+       y="122.66635"
+       id="text664"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan662"
+         x="25.614101"
+         y="122.66635"
+         style="fill:#00ff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="45.543198"
+       y="101.58395"
+       id="text668"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan666"
+         x="45.543198"
+         y="101.58395"
+         style="fill:#ffff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="63.521801"
+       y="83.619629"
+       id="text672"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan670"
+         x="63.521801"
+         y="83.619629"
+         style="fill:#ff0000;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="25.614101"
+       y="122.66635"
+       id="text676"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan674"
+         x="25.614101"
+         y="122.66635"
+         style="fill:#00ff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="93.786873"
+       y="144.28778"
+       id="text564"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan562"
+         x="93.786873"
+         y="144.28778"
+         style="fill:#00ff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="84.37178"
+       y="210.22794"
+       id="text680"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan678"
+         x="84.37178"
+         y="210.22794"
+         style="fill:#ffff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="64.442696"
+       y="231.31033"
+       id="text684"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan682"
+         x="64.442696"
+         y="231.31033"
+         style="fill:#00ff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="9.1730642"
+       y="246.80968"
+       id="text688"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan686"
+         x="9.1730642"
+         y="246.80968"
+         style="fill:#ffff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="16.199018"
+       y="188.60649"
+       id="text692"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan690"
+         x="16.199018"
+         y="188.60649"
+         style="fill:#ffff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="34.17762"
+       y="170.64218"
+       id="text696"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan694"
+         x="34.17762"
+         y="170.64218"
+         style="fill:#ff0000;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="15.11728"
+       y="143.91312"
+       id="text700"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan698"
+         x="15.11728"
+         y="143.91312"
+         style="fill:#ffff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="84.627792"
+       y="149.36829"
+       id="text704"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan702"
+         x="84.627792"
+         y="149.36829"
+         style="fill:#ff0000;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.7423px;line-height:1.25;font-family:sans-serif;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.268558"
+       x="64.442696"
+       y="231.31033"
+       id="text708"
+       transform="rotate(-43.269256)"><tspan
+         id="tspan706"
+         x="64.442696"
+         y="231.31033"
+         style="fill:#00ff00;stroke-width:0.268558">sudo rm -rf /boot/*  </tspan></text>
+  </g>
+  <g
+     id="g238"
+     transform="translate(49.746685,3.8345716)"
+     style="fill:#ff0000">
+    <g
+       fill="#a4c639"
+       id="g17"
+       transform="translate(-2.4435642,9.6889126)"
+       style="fill:#ff0000">
+      <g
+         id="use2"
+         style="fill:#ff0000;stroke:#ffffff;stroke-width:14.4">
+        <ellipse
+           cy="41"
+           rx="91"
+           ry="84"
+           id="ellipse240"
+           cx="0"
+           style="fill:#ff0000" />
+        <rect
+           rx="22"
+           height="182"
+           width="182"
+           y="20"
+           x="-91"
+           id="rect242"
+           style="fill:#ff0000" />
+      </g>
+      <use
+         xlink:href="#a"
+         transform="scale(-1,1)"
+         id="use4"
+         style="fill:#ff0000" />
+      <g
+         id="a"
+         stroke="#ffffff"
+         stroke-width="7.2"
+         style="fill:#ff0000">
+        <rect
+           rx="6.5"
+           transform="rotate(29)"
+           height="86"
+           width="13"
+           y="-86"
+           x="14"
+           id="rect6"
+           style="fill:#ff0000" />
+        <rect
+           id="c"
+           rx="24"
+           height="133"
+           width="48"
+           y="41"
+           x="-143"
+           style="fill:#ff0000" />
+        <use
+           y="97"
+           x="85"
+           xlink:href="#c"
+           id="use9"
+           style="fill:#ff0000" />
+      </g>
+      <ellipse
+         cy="41"
+         rx="91"
+         ry="84"
+         id="ellipse12"
+         cx="0"
+         style="fill:#ff0000" />
+      <rect
+         rx="22"
+         height="182"
+         width="182"
+         y="20"
+         x="-91"
+         id="rect14"
+         style="fill:#ff0000" />
+    </g>
+    <g
+       stroke="#ffffff"
+       stroke-width="7.2"
+       fill="#ffffff"
+       id="g25"
+       style="fill:#ff0000">
+      <path
+         d="M -95,44.5 H 95"
+         id="path19"
+         style="fill:#ff0000" />
+      <circle
+         cx="-42"
+         r="4"
+         id="circle21"
+         cy="0"
+         style="fill:#ff0000" />
+      <circle
+         cx="42"
+         r="4"
+         id="circle23"
+         cy="0"
+         style="fill:#ff0000" />
+    </g>
+  </g>
+</svg>
